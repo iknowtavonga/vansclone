@@ -113,7 +113,68 @@ nav.navbar{
 /* HEADER COMPLETE ABOVE */
 
 /* BANNER IMAGE BELOW */
+.promotional_product{
+    margin: 5px 0;
+}
 
 .promotional_product img{
     max-width: 100vw;
+}
+
+main.collections{
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+}
+
+main .collection_container{
+    padding: 2.5em 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collection_container img{
+    width: 100%;
+}
+
+.collection_container h2{
+    font-family: 'Bebas Neue', cursive;    
+    font-weight: 900;
+    font-size: 3em;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.3em 2em;
+}
+
+.collection_container p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1em ;
+}
+
+.collection_container button{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.collection_container button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+.favourite_item img{
+    max-width: 80vw;
 }

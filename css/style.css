@@ -172,8 +172,103 @@ main .collection_container{
     color: black;
 }
 
+.section_title{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;    
+    font-size: 1.2em;
+    text-align: center;
+    letter-spacing: 2px;
+}
 
+.customer_categories{
+    display: flex;
+    flex-direction: column;
+}
 
+.shop_by{
+    height: 40vh ;
+}
+
+.men_shop_by{
+    background-image: url(/images/men_shopby.webp);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.women_shop_by{
+    background-image: url(/images/women_shopby.webp);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.kids_shop_by{
+    background-image: url(/images/kids_shopby.webp);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.shop_by h2{
+    font-size: 1.5em;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.shop_by ul{
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+.shop_by li{
+    padding: 0.25em 0;
+}
+
+.shop_by a {
+    text-decoration: none;
+    color: #5799c4;
+    letter-spacing: 1.5px;
+    transition: all 0.2s;
+}
+
+.shop_by a:hover{
+    background-color: #c9192e;
+    color: white;
+}
 
 
 .favourite_item img{

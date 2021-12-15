@@ -64,6 +64,10 @@ nav.navbar{
     letter-spacing: 0.1em;
 }
 
+.nav-item i:hover{
+    color: #c9192e;
+}
+
 .nav-item i span{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -104,4 +108,12 @@ nav.navbar{
     font-size: 0.8em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+}
+
+/* HEADER COMPLETE ABOVE */
+
+/* BANNER IMAGE BELOW */
+
+.promotional_product img{
+    max-width: 100vw;
 }

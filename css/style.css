@@ -52,7 +52,7 @@ nav.navbar{
     height: 4em;
     border: 1px solid #ccc;
     background-color: #f8f9fa;
-
+    
 }
 
 .nav-item{
@@ -62,5 +62,29 @@ nav.navbar{
 .nav-item i{
     font-weight: bold;
     letter-spacing: 0.1em;
-    
+}
+
+.nav-item i span{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+
+.marquee_text{
+    padding: 0.3em 0;
+    background-color: #2b2b2b;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.marquee_text marquee{
+    font-size: 0.8em;
+}
+
+.signup_banner{
+    padding: 0.3em 0;
+    background-color: #c9192e;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }

@@ -43,3 +43,24 @@ table {
 }
 
 /* CSS RESETS ABOVE */
+
+nav.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+
+}
+
+.nav-item{
+    margin: 0.2em;
+}
+
+.nav-item i{
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    
+}

@@ -178,6 +178,7 @@ main .collection_container{
     font-size: 1.2em;
     text-align: center;
     letter-spacing: 2px;
+    padding: 1em 0;
 }
 
 .customer_categories{
@@ -270,7 +271,12 @@ main .collection_container{
     color: white;
 }
 
+.favourites_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 
 .favourite_item img{
-    max-width: 80vw;
+    max-width: 100%;
 }

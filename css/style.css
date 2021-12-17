@@ -300,3 +300,92 @@ main .collection_container{
 .price{
     font-weight: bold;
 }
+
+footer{
+    background-color: #1c1c1c;
+    color: white;
+    padding: 2em 2em;
+}
+
+h2.footer-menu{
+    font-family: 'Bebas Neue', cursive;   
+    font-size: 2em; 
+    width: 100%;
+    border-bottom: 2px solid white;
+    margin: 0.1em 0 1em 0;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+h2.footer-heading{
+    font-family: 'Bebas Neue', cursive;   
+    font-size: 2em; 
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.find-a-store{
+    margin: 0.1em 0 1em 0.1em;
+}
+
+.footer-social-media{
+    margin-top: 1em;
+    height: 4em;
+    display: flex;
+    align-items: center;
+}
+
+.footer-social-media i{
+    font-size: 2em;
+    padding-right: 0.5em ;
+    margin-bottom: 1em;
+    transition: all 0.2s;
+    
+}
+
+.footer-social-media i:hover{
+    font-size: 2.3em;
+    cursor: pointer;
+}
+
+.footer-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-form p,label{
+    font-size: 0.8em;
+    margin-top: 1em;
+    color: #8d9293;
+}
+
+.footer-form a{
+    color: #589bc6;
+    text-decoration: none;
+}
+
+#email{
+    text-align: center;
+    width: 60vw;
+    padding: 0.8em;
+    margin: 10px 0;
+}
+
+.gender button{
+    margin-bottom: 0.5em;
+    width: 10em;
+    padding: 0.7em 1em;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #c9192e;
+    border: none;
+    transition: all 0.2s;
+}
+
+.gender button:hover{
+    background-color: black;
+    cursor: pointer;
+}

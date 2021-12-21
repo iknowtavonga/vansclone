@@ -409,9 +409,27 @@ h2.footer-heading{
           padding: 0 6em;
       }
 
-      .collections{
+      .product-collections{
           display: grid;
           grid-template-columns: 1fr 1fr;
-          grid-gap: 1.5em;
+      }
+
+      main .collection_container{
+        padding: 1.25em 1.25em;
+      }          
+
+     .section_title{
+          font-size: 2.5em;
+      }
+
+      .customer_categories{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-gap: 1em;
+          margin: 0 1em;
+      }
+
+      .favourites_container{
+          grid-template-columns: 1fr 1fr 1fr;
       }
   }

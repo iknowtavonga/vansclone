@@ -432,4 +432,32 @@ h2.footer-heading{
       .favourites_container{
           grid-template-columns: 1fr 1fr 1fr;
       }
+
+      .footer-contacts{
+          display: flex;
+      }
+
+      .footer-form{
+          margin: auto;
+      }
+
+      .footer-contacts .fas{
+          margin-left: 10px;
+      }
+
+      .find-a-store{
+          width: 20vw;
+      }
+
+      .footer-connect{
+          width: 30vw;
+      }
+
+      .footer-form{
+          width: 40vw;
+      }
+
+      #email{
+          width: 40vw;
+      }
   }

@@ -389,3 +389,29 @@ h2.footer-heading{
     background-color: black;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 650px) {
+    nav.navbar{
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .marquee_text{
+        position: sticky;
+        top: 0;
+
+    }
+  }
+
+  @media only screen and (min-width: 850px) {
+      nav.navbar{
+          padding: 0 6em;
+      }
+
+      .collections{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 1.5em;
+      }
+  }
